@@ -1,7 +1,8 @@
+import os
+os.environ["HF_HUB_ENABLE_HF_TRANSFER"]='1'
+from huggingface_hub import snapshot_download
 import contextlib
 from get_model import model_initialize,encode_tokens,generate
-from huggingface_hub import snapshot_download
-import os
 
 class InferlessPythonModel:
     def initialize(self):
