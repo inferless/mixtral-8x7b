@@ -10,3 +10,4 @@ build:
     - "-e git+https://github.com/huggingface/peft.git#egg=peft"
     - "hf-transfer==0.1.9"
     - "huggingface-hub==0.29.1"
+    - "sentencepiece==0.2.0"
